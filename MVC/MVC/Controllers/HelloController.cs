@@ -13,6 +13,7 @@ namespace MVC.Controllers
 
         public ActionResult Index()
         {
+            ViewData["msg"] = "Hello World !";
             return View();
         }
 
